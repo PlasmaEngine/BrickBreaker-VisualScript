@@ -1,0 +1,11 @@
+AssetCache/
+Plugins/
+Intermediate/
+obj/
+bin/
+Editor/Preferences/
+RuntimeConfigs/*.plProfile
+__pycache__/
+plLauncher
+plDefaultAssertHandlerOutput.txt
+!README.md

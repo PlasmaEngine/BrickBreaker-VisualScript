@@ -1,0 +1,6237 @@
+HeaderV2
+{
+o
+{
+	Uuid %id{u4{4081167873388722353,4972640832270699299}}
+	s %t{"plAssetDocumentInfo"}
+	u3 %v{2}
+	s %n{"Header"}
+	p
+	{
+		s %AssetType{"Material"}
+		VarArray %Dependencies
+		{
+			s{"{ 3a2871f8-af57-395b-0b48-084fee2d94a0 }"}
+		}
+		Uuid %DocumentID{u4{4081167873388722353,4972640832270699299}}
+		u4 %Hash{16230475509897793969}
+		VarArray %MetaInfo{}
+		VarArray %Outputs{}
+		VarArray %PackageDeps
+		{
+			s{"{ 3a2871f8-af57-395b-0b48-084fee2d94a0 }"}
+			s{"{ ac614d7c-2b31-4a7b-aa0c-c5d8200b7b89 }"}
+		}
+		VarArray %References
+		{
+			s{"{ 3a2871f8-af57-395b-0b48-084fee2d94a0 }"}
+			s{"{ ac614d7c-2b31-4a7b-aa0c-c5d8200b7b89 }"}
+		}
+	}
+}
+}
+Objects
+{
+o
+{
+	Uuid %id{u4{2374549875430828246,4299141106515064345}}
+	s %t{"Shaders/Materials/OpenPBRSurface.plShader"}
+	u3 %v{2}
+	p
+	{
+		s %BLEND_MODE{"BLEND_MODE::BLEND_MODE_OPAQUE"}
+		s %DitherNoiseTexture{"{ ac614d7c-2b31-4a7b-aa0c-c5d8200b7b89 }"}
+		b %EmissiveLighting{1}
+		b %InvertOcclusion{0}
+		b %OPENPBR_ANISOTROPY{0}
+		b %OPENPBR_COAT{0}
+		b %OPENPBR_COAT_EXTENDED{0}
+		b %OPENPBR_FUZZ{0}
+		b %OPENPBR_SUBSURFACE{0}
+		b %OPENPBR_THINFILM{0}
+		b %OPENPBR_TRANSMISSION{0}
+		b %OPENPBR_TRANSMISSION_BLUR{0}
+		b %OPENPBR_TRANSMISSION_DISPERSION{0}
+		s %SHADING_MODE{"SHADING_MODE::SHADING_MODE_LIT"}
+		s %SSS_PROFILE{"SSS_PROFILE::SSS_PROFILE_NONE"}
+		Vec2 %Scale{f{0x0000803F,0x0000803F}}
+		b %TWO_SIDED{0}
+		b %UseBaseColorStochasticTexturing{0}
+		b %UseBaseColorTexture{0}
+		b %UseCoatNormalTexture{0}
+		b %UseCoatTexture{0}
+		b %UseDisplacementStochasticTexturing{0}
+		b %UseDisplacementTexture{0}
+		b %UseEmissionStochasticTexturing{0}
+		b %UseEmissionTexture{0}
+		b %UseFuzzTexture{0}
+		b %UseMetalnessTexture{0}
+		b %UseNormalStochasticTexturing{0}
+		b %UseNormalTexture{0}
+		b %UseOcclusionTexture{0}
+		b %UseOrmStochasticTexturing{0}
+		b %UseOrmTexture{0}
+		b %UseRmaTexture{0}
+		b %UseSpecularColorTexture{0}
+		b %UseSpecularRoughnessStochasticTexturing{0}
+		b %UseSpecularRoughnessTexture{0}
+		b %UseSubsurfaceTexture{0}
+		b %UseThicknessTexture{0}
+		Color %base_color{f{0x31C3D73E,0xD3F4C03D,0xD3F4C03D,0x0000803F}}
+		s %base_color_texture{""}
+		f %base_diffuse_roughness{0}
+		f %base_metalness{0}
+		s %base_metalness_texture{""}
+		f %base_weight{0x0000803F}
+		f %coat_anisotropy_rotation{0}
+		Color %coat_color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		f %coat_darkening{0x0000803F}
+		f %coat_ior{0xCDCCCC3F}
+		s %coat_normal_texture{""}
+		f %coat_roughness{0}
+		f %coat_roughness_anisotropy{0}
+		s %coat_texture{""}
+		f %coat_weight{0}
+		f %displacement_scale{0}
+		s %displacement_texture{""}
+		Color %emission_color{f{0x0000803F,0,0,0x0000803F}}
+		s %emission_color_texture{""}
+		f %emission_luminance{0xA4709141}
+		Color %fuzz_color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		f %fuzz_roughness{0x0000003F}
+		s %fuzz_texture{""}
+		f %fuzz_weight{0}
+		f %geometry_normal_intensity{0x0000803F}
+		s %geometry_normal_texture{""}
+		f %geometry_opacity{0x0000803F}
+		f %geometry_opacity_threshold{0x0000803E}
+		b %geometry_thin_walled{0}
+		s %occlusion_texture{""}
+		s %orm_texture{""}
+		f %specular_anisotropy_rotation{0}
+		Color %specular_color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		s %specular_color_texture{""}
+		f %specular_ior{0x0000C03F}
+		f %specular_roughness{0x9A99993E}
+		f %specular_roughness_anisotropy{0}
+		s %specular_roughness_texture{""}
+		f %specular_weight{0x0000803F}
+		Color %subsurface_color{f{0xCDCC4C3F,0xCDCC4C3F,0xCDCC4C3F,0x0000803F}}
+		s %subsurface_color_texture{""}
+		f %subsurface_radius{0x0000803F}
+		Color %subsurface_radius_scale{f{0x0000803F,0x0000003F,0x0000803E,0x0000803F}}
+		f %subsurface_scatter_anisotropy{0}
+		f %subsurface_weight{0}
+		s %thickness_texture{""}
+		f %thin_film_ior{0x3333B33F}
+		f %thin_film_thickness{0x0000003F}
+		f %thin_film_weight{0}
+		f %transmission_blur_radius{0x00008040}
+		f %transmission_blur_strength{0x0000803F}
+		Color %transmission_color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		f %transmission_depth{0}
+		f %transmission_dispersion_abbe_number{0x0000A041}
+		f %transmission_dispersion_scale{0}
+		Color %transmission_scatter{f{0,0,0,0x0000803F}}
+		f %transmission_scatter_anisotropy{0}
+		f %transmission_thickness{0x0000803F}
+		f %transmission_weight{0}
+	}
+}
+o
+{
+	Uuid %id{u4{4356739155205781413,4641606466733069973}}
+	s %t{"ShaderNode::MaterialOutput"}
+	u3 %v{1}
+	p
+	{
+		b %ApplyDecals{1}
+		b %ApplyFog{1}
+		Vec3 %BaseColor{f{0x0000803F,0x0000803F,0x0000803F}}
+		Vec3 %Emissive{f{0,0,0}}
+		f %MaskThreshold{0x0000803E}
+		f %Metallic{0}
+		Vec2 %Node::Pos{f{0x4F1D9244,0xED9B6D43}}
+		f %Occlusion{0x0000803F}
+		f %Opacity{0x0000803F}
+		f %Reflectance{0x0000003F}
+		Vec4 %RefractionColor{f{0,0,0,0x0000803F}}
+		f %Roughness{0x0000803F}
+		Vec3 %SubsurfaceColor{f{0,0,0}}
+	}
+}
+o
+{
+	Uuid %id{u4{15433462205699876230,4666105431413221516}}
+	s %t{"plMaterialAssetProperties"}
+	u3 %v{4}
+	p
+	{
+		s %BaseMaterial{"{ 3a2871f8-af57-395b-0b48-084fee2d94a0 }"}
+		s %MetaBasePrefab{"HeaderV2\r\n{\r\no\r\n{\r\n\tUuid %id{u4{11570923844173056011,4133089872215306744}}\r\n\ts %t{\"plAssetDocumentInfo\"}\r\n\tu3 %v{2}\r\n\ts %n{\"Header\"}\r\n\tp\r\n\t{\r\n\t\ts %AssetType{\"Material\"}\r\n\t\tVarArray %Dependencies\r\n\t\t{\r\n\t\t\ts{\"Shaders/Materials/OpenPBRSurface.plShader\"}\r\n\t\t}\r\n\t\tUuid %DocumentID{u4{11570923844173056011,4133089872215306744}}\r\n\t\tu4 %Hash{0}\r\n\t\tVarArray %MetaInfo{}\r\n\t\tVarArray %Outputs{}\r\n\t\tVarArray %PackageDeps{}\r\n\t\tVarArray %References\r\n\t\t{\r\n\t\t\ts{\"Shaders/Materials/OpenPBRSurface.plShader\"}\r\n\t\t}\r\n\t}\r\n}\r\n}\r\nObjects\r\n{\r\no\r\n{\r\n\tUuid %id{u4{9825443771930618502,15208340691273455913}}\r\n\ts %t{\"plMaterialAssetProperties\"}\r\n\tu3 %v{4}\r\n\tp\r\n\t{\r\n\t\ts %BaseMaterial{\"\"}\r\n\t\ts %Shader{\"Shaders/Materials/OpenPBRSurface.plShader\"}\r\n\t\ts %ShaderMode{\"plMaterialShaderMode::File\"}\r\n\t\ts %Surface{\"\"}\r\n\t}\r\n}\r\no\r\n{\r\n\tUuid %id{u4{6710294483851107762,13049776215558842097}}\r\n\ts %t{\"plDocumentRoot\"}\r\n\tu3 %v{1}\r\n\ts %n{\"ObjectTree\"}\r\n\tp\r\n\t{\r\n\t\tVarArray %Children\r\n\t\t{\r\n\t\t\tUuid{u4{9825443771930618502,15208340691273455913}}\r\n\t\t}\r\n\t}\r\n}\r\n}\r\nTypes\r\n{\r\n}\r\n"}
+		Uuid %MetaFromPrefab{u4{11570923844173056011,4133089872215306744}}
+		Uuid %MetaPrefabSeed{u4{5608018433769257728,7904508813849317219}}
+		s %Shader{"Shaders/Materials/OpenPBRSurface.plShader"}
+		s %ShaderMode{"plMaterialShaderMode::BaseMaterial"}
+		Uuid %ShaderProperties{u4{2374549875430828246,4299141106515064345}}
+		s %Surface{""}
+	}
+}
+o
+{
+	Uuid %id{u4{9801245150453719695,4746116604349841461}}
+	s %t{"ShaderNode::Texture2D"}
+	u3 %v{1}
+	p
+	{
+		f %Lod{0}
+		s %Name{"CustomTexture"}
+		Vec2 %Node::Pos{f{0x75592244,0x2F3A3543}}
+	}
+}
+o
+{
+	Uuid %id{u4{5527747672830820242,5676875751528391303}}
+	s %t{"plDocumentObject_ConnectionBase"}
+	u3 %v{1}
+	p
+	{
+		Uuid %Source{u4{9801245150453719695,4746116604349841461}}
+		s %SourcePin{"RGBA"}
+		Uuid %Target{u4{4356739155205781413,4641606466733069973}}
+		s %TargetPin{"BaseColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{18096612296587978288,6449934965513159559}}
+	s %t{"plDocumentRoot"}
+	u3 %v{1}
+	s %n{"ObjectTree"}
+	p
+	{
+		VarArray %Children
+		{
+			Uuid{u4{15433462205699876230,4666105431413221516}}
+			Uuid{u4{4356739155205781413,4641606466733069973}}
+			Uuid{u4{9801245150453719695,4746116604349841461}}
+			Uuid{u4{5527747672830820242,5676875751528391303}}
+		}
+	}
+}
+}
+Types
+{
+o
+{
+	Uuid %id{u4{17923597577557822465,1744867503045524}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{14853369653563399310,14110251728103468}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{1}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SSS_PROFILE::SSS_PROFILE_SKIN"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{11328927983653446892,144568098297487475}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plPropertyAttribute"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plTitleAttribute"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{13929205057267625747,145928129724804724}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{4653124759386770968,9290090360068579215}}
+			Uuid{u4{11838234552971199096,15104807336295836355}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseEmissionStochasticTexturing"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{9418481016427139427,195901740684285985}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{18000852419596188232,17737726905353490786}}
+			Uuid{u4{12816885831656311708,17830787928966663762}}
+			Uuid{u4{15163808099322334660,10708413742761099773}}
+			Uuid{u4{8577904521872121354,17387734008428528798}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"geometry_opacity_threshold"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{7388758938805448453,287310173887340083}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{453658281641726135,475643957905904681}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15099998058862940370,12265018821712969097}}
+			Uuid{u4{1546152290808802983,12968437014585530883}}
+			Uuid{u4{3198516409790679468,657877943942251696}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"emission_color_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{1315152810255380661,478452221775304204}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15069833807053007917,6277819092939063235}}
+			Uuid{u4{4090582142828320269,4662122068928234149}}
+			Uuid{u4{6409931856791831388,12928740802583886166}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"thickness_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{8409720129952436962,479970009941713068}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{5068517006152418954,14563138719279420219}}
+			Uuid{u4{14515818779165376041,17748225367811232666}}
+			Uuid{u4{11994459067321154478,3831572005350748592}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"fuzz_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{5547529106464729107,534432293972397740}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{5843524917083559980,17483340805588215634}}
+			Uuid{u4{4970566383191131298,10614349540447510987}}
+			Uuid{u4{8727820877747701027,753347034670187985}}
+			Uuid{u4{8900163346424576765,17595263105991450080}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_depth"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{3198516409790679468,657877943942251696}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Emission"}
+	}
+}
+o
+{
+	Uuid %id{u4{8727820877747701027,753347034670187985}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000005940}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{4548994022961570289,769577801454832371}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{9631801373312813819,848618392166579250}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{7058171260018067088,884143171822304424}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{9450224230101687147,2156898856155291578}}
+			Uuid{u4{5464676634424085013,9031715359083098625}}
+			Uuid{u4{9080986819849766939,8253895278784715779}}
+			Uuid{u4{5411080189055558626,10665619727504359315}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_weight"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{12494713803913314697,944531233348362701}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{5956583766937197869,12639561568732742368}}
+			Uuid{u4{17009469423089393779,16603389234132584612}}
+			Uuid{u4{4405024115912092482,4304140525842806255}}
+			Uuid{u4{4904605011776724339,8041232446065121816}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"fuzz_weight"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{11325353457407115452,962373184355435413}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{6374112424352883973,14805138945750538797}}
+			Uuid{u4{11960061889638178267,12914808095323952851}}
+			Uuid{u4{9673202392289900538,14083275247972869917}}
+			Uuid{u4{11357158963971129902,5200376185028279942}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_color"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{5426232521812624447,980899917142218683}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{7419729425991662002,1022457494308290094}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{15837387383251555346,1127719453002499205}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{3884670569348238343,1132678760015741686}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{15540924672187883510,1162972577362241439}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{16817846501597051724,1190960682435985691}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{14114752523095510056,11224326753378124470}}
+			Uuid{u4{9454233887708662970,17790807955146963959}}
+			Uuid{u4{8536393422672583750,10193334558824049601}}
+			Uuid{u4{2001322400208573388,2482339314000037061}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_thickness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{7768309841231461694,1192646518160333740}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15962474750109329805,8575726503382703010}}
+			Uuid{u4{3884670569348238343,1132678760015741686}}
+			Uuid{u4{9875382167628692353,9413124615854001732}}
+			Uuid{u4{6544280640714878712,5545876027860202246}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"geometry_opacity"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{9220896776869573646,1195942188676705234}}
+	s %t{"plSuffixAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Suffix{" (also refraction IOR)"}
+	}
+}
+o
+{
+	Uuid %id{u4{2802523199221582979,1203418814397561529}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{6953931926994019975,1211839655795563793}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7584185151159306336,15090367746943933089}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::IsEnum|plPropertyFlags::Phantom"}
+		s %Name{"BLEND_MODE"}
+		s %Type{"BLEND_MODE"}
+	}
+}
+o
+{
+	Uuid %id{u4{13765735637870823704,1417785572581636836}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{1453311262278946635,1474366263295631712}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{9170094267343567514,1502493601990969388}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{16793040914115743400,12765101392546222867}}
+			Uuid{u4{17110348402080767328,8538592808727653740}}
+			Uuid{u4{8546080099346981247,7614181197563749158}}
+			Uuid{u4{14280687352031764607,9704464638190604473}}
+			Uuid{u4{5419310385848093440,3579087728307976345}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"emission_luminance"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{9852536425717529366,1576560371593436943}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{12263344876613037926,1637716179223588024}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{11040065101175624628,1662539785884692449}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{1985440285483112827,8724481050509570786}}
+		}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plVisualShaderNodeBase"}
+		s %PluginName{"VisualShaderTypes"}
+		VarArray %Properties
+		{
+			Uuid{u4{2589033904860476140,2941600109649901427}}
+			Uuid{u4{16804715233058764794,16291563085247070494}}
+			Uuid{u4{18411837506060015951,13397631608945770603}}
+			Uuid{u4{8531456234757106898,9843359760009772741}}
+			Uuid{u4{10978509386339080603,6055180187630064684}}
+			Uuid{u4{2493142764329470971,4237250110264931902}}
+			Uuid{u4{11381554768749103056,5747586724112780390}}
+			Uuid{u4{15388913065968328453,11188089115316402371}}
+			Uuid{u4{13652862081152275637,1931931446829192038}}
+			Uuid{u4{4737060376990519197,5534452074735684677}}
+			Uuid{u4{17888293823252574217,5278584362329602531}}
+			Uuid{u4{5182949022402297138,11502908056830025687}}
+		}
+		s %TypeName{"ShaderNode::MaterialOutput"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{17346483207555608218,1672003086270270717}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{11741253839755965871,1722247385497857597}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Packed Textures"}
+	}
+}
+o
+{
+	Uuid %id{u4{10578539084681953211,1724078899028520080}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{13259549425803085586,10560471181391175870}}
+			Uuid{u4{4093344776740764189,16843330500324361608}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseOcclusionTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{16740668941513221175,1773633247575494011}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8826762044322424751,16228225863694839042}}
+			Uuid{u4{9820184588771068883,11782920371706536792}}
+			Uuid{u4{4400682450977548329,16263080228809244194}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"subsurface_color_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{14831359824912569370,1828982774811006507}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMaterialAssetProperties"}
+		u3 %TypeVersion{4}
+	}
+}
+o
+{
+	Uuid %id{u4{18311245008988910186,1895067994934075466}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"ShaderTypes"}
+		VarArray %Properties
+		{
+			Uuid{u4{773668148553828920,15966949596821666881}}
+			Uuid{u4{540429536914844576,8213819539779215949}}
+			Uuid{u4{15543418230834458689,5548684801941186544}}
+			Uuid{u4{16393153594407016602,3744118329769567614}}
+			Uuid{u4{7757084663128585029,8011669779036733373}}
+			Uuid{u4{5650026407490086663,5768478847879086899}}
+			Uuid{u4{3687164412847300807,16605290275319987562}}
+		}
+		s %TypeName{"BLEND_MODE"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{13652862081152275637,1931931446829192038}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8648126710299805379,15926322808980556731}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Emissive"}
+		s %Type{"plVec3"}
+	}
+}
+o
+{
+	Uuid %id{u4{6681920541234292456,1932320683773733903}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{5452899030851875800,1975006258079450274}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{6918535257671105113,1976430501789288111}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{13056250679869758657,5509760490997735291}}
+			Uuid{u4{17923597577557822465,1744867503045524}}
+			Uuid{u4{5316640020076774795,13624620080584670812}}
+			Uuid{u4{10509069197031840664,16875494424442779160}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_anisotropy_rotation"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{17685405387310519897,1985338513571785083}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{1702777610577799269,12538931205233967903}}
+			Uuid{u4{16561856738109980516,16596897780539100679}}
+			Uuid{u4{9062096873703911762,11141528047753774640}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"displacement_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{9081833144320390522,2018655567798370575}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{15536110552602072196,2037053645355207047}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{9182498974977327514,2041274447054354959}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{0}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SHADING_MODE::SHADING_MODE_LIT"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{5292513149015595853,2139402305047659174}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{14158486990446856109,3554991503457219319}}
+			Uuid{u4{1453311262278946635,1474366263295631712}}
+			Uuid{u4{14880194662992369520,2193013795752203117}}
+			Uuid{u4{8107773453230697554,3082469155301997033}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"base_weight"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{6530726054376262079,2143529111360127393}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{9450224230101687147,2156898856155291578}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{18337955314988830198,2167878793615216078}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{14880194662992369520,2193013795752203117}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{16098032141102195210,2217429398823702165}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{3362255376557868707,8969330785822161686}}
+			Uuid{u4{1765185777346845272,2915480654457740026}}
+			Uuid{u4{2402382417020042925,9418495929206863892}}
+			Uuid{u4{17399055997121552148,11541276372309029042}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"subsurface_weight"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{2333756880885946919,2237455060922773235}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{136243142080152940,2265169244484495986}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8478457513034897251,14429883433824837419}}
+			Uuid{u4{11529330969824860252,4312666716886559813}}
+			Uuid{u4{2802523199221582979,1203418814397561529}}
+			Uuid{u4{6904985725841256329,17475328943279946240}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_dispersion_scale"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{17666641755700470712,2266296315297087728}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{8594597557306080771,2354711443301172843}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{320237698458714602,2357299022980878532}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{9081833144320390522,2018655567798370575}}
+			Uuid{u4{9952282383338487199,17012269330900302265}}
+			Uuid{u4{10831861412440121674,14465111803885778603}}
+			Uuid{u4{10078869839480044637,17746002121000015212}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"subsurface_radius_scale"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{2001322400208573388,2482339314000037061}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{11663607471246168418,2483349853474097318}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Packed Textures"}
+	}
+}
+o
+{
+	Uuid %id{u4{7062384220590206908,2492024633122976185}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{3464204495064643629,2526682284417417147}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{17344310748169204018,2571715988155223854}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Abstract|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"VisualShaderTypes"}
+		VarArray %Properties{}
+		s %TypeName{"plVisualShaderNodeBase"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{8900877836175287540,2624232588055183873}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{12309751363810078380,2785489960050188011}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{1590559062246706910,2846674307898123174}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{3243420965592973153,2870197231811620045}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{5129398481617582958,9517002993555768605}}
+			Uuid{u4{7641803780248902926,3485866248999433350}}
+			Uuid{u4{11382387788585555247,13055572849966061462}}
+			Uuid{u4{11956913679456380476,12977050983397571975}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_roughness_anisotropy"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{4992264050151566709,2874373814859900318}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000002040}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{18279771506927313794,2876045944149082031}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{3831938696205031036,5872730267230349558}}
+			Uuid{u4{13199851989629445100,8451999014722933714}}
+			Uuid{u4{4078226210113058245,13662764586963335301}}
+			Uuid{u4{3417825314001571042,7325589673580962186}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_color"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{15575195466921231597,2896637546085666820}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8021185824820046032,13291966579949917575}}
+			Uuid{u4{8652712219880796415,7284811850537421364}}
+			Uuid{u4{14419866512304811035,18388840746759171197}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"EmissiveLighting"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{1765185777346845272,2915480654457740026}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{2589033904860476140,2941600109649901427}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{107023027798387058,15125524156854853544}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"MaskThreshold"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{2005396990807502301,2945447351068243698}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{11450691934225383466,15095994446798218963}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_COAT_EXTENDED"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{5761076465062790877,2954426569026656103}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000000840}
+		d %Min{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{909141803338893063,3053909488263610303}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x0000000000001040}
+	}
+}
+o
+{
+	Uuid %id{u4{8107773453230697554,3082469155301997033}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{4733569595801075608,3131520060895050784}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{6116479978962706445,3222604807867055980}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8902869426992550651,12425837939523063877}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_FUZZ"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{5639663073489427154,3290330440354474383}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{2228436983102273050,12679280848340687150}}
+			Uuid{u4{9321134734067381573,14760975342255350389}}
+			Uuid{u4{83467845955989859,9711630296947084557}}
+			Uuid{u4{2840318671577946940,12071702709536340822}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"subsurface_color"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{11543369858619074197,3437461721487944441}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{5}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SSS_PROFILE::SSS_PROFILE_FOLIAGE"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{7641803780248902926,3485866248999433350}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{13958529985619956222,3500452058663490684}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{3023092958272427669,16665328142068309539}}
+			Uuid{u4{15385429092844235046,10767134171222214655}}
+			Uuid{u4{14904005689318150784,4185558211729600711}}
+			Uuid{u4{5260875572969040329,7971147119366325335}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"fuzz_color"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{14999436271137960313,3531389805284838527}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12799123634102489619,13164917737659870015}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::IsEnum|plPropertyFlags::Phantom"}
+		s %Name{"SHADING_MODE"}
+		s %Type{"SHADING_MODE"}
+	}
+}
+o
+{
+	Uuid %id{u4{10546328178433928928,3538178021212683011}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		b %Value{1}
+	}
+}
+o
+{
+	Uuid %id{u4{14158486990446856109,3554991503457219319}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{5419310385848093440,3579087728307976345}}
+	s %t{"plSuffixAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Suffix{" nits"}
+	}
+}
+o
+{
+	Uuid %id{u4{5839288043665595855,3601562863712858932}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Subsurface"}
+	}
+}
+o
+{
+	Uuid %id{u4{5842503704189964756,3730367066671253356}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{4548994022961570289,769577801454832371}}
+			Uuid{u4{10134979271761494886,8764671515805107265}}
+			Uuid{u4{11746977103117726514,15899302158337064627}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"geometry_normal_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{16393153594407016602,3744118329769567614}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{2}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"BLEND_MODE::BLEND_MODE_DITHERED"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{2736240293049200561,3767605606824940627}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{50824923012384968,11513845302080729655}}
+			Uuid{u4{17666641755700470712,2266296315297087728}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseDisplacementTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{13137006516796710697,3807890299325430607}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{11994459067321154478,3831572005350748592}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Fuzz"}
+	}
+}
+o
+{
+	Uuid %id{u4{14306396433288471561,3967032276143130004}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{2376550504530686320,12639075221071613020}}
+			Uuid{u4{14827684183374794394,14495887698593921408}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseSpecularRoughnessStochasticTexturing"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{807859887506019664,3974883262983782522}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{6132256060346407795,6500214385326867546}}
+			Uuid{u4{5839288043665595855,3601562863712858932}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseSubsurfaceTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{15989494111161090414,4114764265842873271}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{9695553319194182484,8663958754949943909}}
+			Uuid{u4{1634537248169012870,11814985502537039385}}
+			Uuid{u4{222396644795894882,5680806228526638403}}
+			Uuid{u4{12323734747224659121,14932440226755748124}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"subsurface_radius"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{15998379709561119718,4125875099470983195}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12621197755680319962,14721909023057334500}}
+			Uuid{u4{2348320368639223288,5112719982316036243}}
+			Uuid{u4{5761076465062790877,2954426569026656103}}
+			Uuid{u4{5291431731826003989,5638764909960458372}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_ior"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{14904005689318150784,4185558211729600711}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{3533747303185184109,4221781958995428581}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{2493142764329470971,4237250110264931902}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12975893279928312590,7112828226212987324}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Reflectance"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{4405024115912092482,4304140525842806255}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{11529330969824860252,4312666716886559813}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{4085023801481947262,4424431816763648179}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Vec3 %Value{f{0x0000803F,0x0000803F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{7209097387887171936,4425579613251137432}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{14535009862051211986,4504231688204859231}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{13192352710360986294,4516766926872340421}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{16218050526835161093,7255247056424431896}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_TRANSMISSION_BLUR"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{7105032300890962103,4540438085969744155}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{4090582142828320269,4662122068928234149}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{14772945616141129658,4707408477893437731}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{3533747303185184109,4221781958995428581}}
+			Uuid{u4{3661606116271410882,15635946552928660533}}
+			Uuid{u4{13349837859728148151,18443127821951126359}}
+			Uuid{u4{10388392360415541923,5592512271557483583}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"thin_film_ior"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{13694728791128681609,4779322342744069952}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{9751093439035601302,5490810444047421276}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"TWO_SIDED"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{9834257740614029970,4850004564307376971}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Packed Textures"}
+	}
+}
+o
+{
+	Uuid %id{u4{6578081666434076975,4946780050709061779}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Value{"CustomTexture"}
+	}
+}
+o
+{
+	Uuid %id{u4{2056928318947628317,5041757828919172379}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Fuzz"}
+	}
+}
+o
+{
+	Uuid %id{u4{2348320368639223288,5112719982316036243}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x9A9999999999F93F}
+	}
+}
+o
+{
+	Uuid %id{u4{8454044857503685881,5158862374481421992}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{11357158963971129902,5200376185028279942}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{20152662666495112,5203568054144201669}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Subsurface"}
+	}
+}
+o
+{
+	Uuid %id{u4{17357249367116837093,5217670515496955813}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{17888293823252574217,5278584362329602531}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{13542406804441022416,9548951225033578222}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"RefractionColor"}
+		s %Type{"plVec4"}
+	}
+}
+o
+{
+	Uuid %id{u4{3440299155979990962,5360840066053655640}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{14800380909255272620,6887164798133010744}}
+			Uuid{u4{12073207100441116220,11556643723538720049}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseNormalTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{15746312881883185457,5410024535688263665}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{11358257955706097330,17384077148257997155}}
+			Uuid{u4{12285259696203672457,10220524470936691669}}
+			Uuid{u4{13964683398563759650,6857264399207119867}}
+			Uuid{u4{2056928318947628317,5041757828919172379}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"fuzz_roughness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{18200256455121510126,5460019644832151135}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Abstract|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"ShaderTypes"}
+		VarArray %Properties{}
+		s %TypeName{"plShaderTypeBase"}
+		u3 %TypeVersion{2}
+	}
+}
+o
+{
+	Uuid %id{u4{2245585983363498933,5461389159812932534}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000001040}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{9751093439035601302,5490810444047421276}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{13056250679869758657,5509760490997735291}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{4737060376990519197,5534452074735684677}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12496807453269888305,16412205064812982056}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Occlusion"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{6544280640714878712,5545876027860202246}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{15543418230834458689,5548684801941186544}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{1}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"BLEND_MODE::BLEND_MODE_MASKED"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{10388392360415541923,5592512271557483583}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Thin Film"}
+	}
+}
+o
+{
+	Uuid %id{u4{5291431731826003989,5638764909960458372}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{222396644795894882,5680806228526638403}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000002440}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{12188452216097237062,5689217645126770575}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{15567146928977235029,5718928627682425982}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8454044857503685881,5158862374481421992}}
+			Uuid{u4{10722660494486704228,13869170878537216617}}
+			Uuid{u4{1775350024911681028,13453617770426043078}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"orm_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{11381554768749103056,5747586724112780390}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{1263665986699366714,7795821215980672176}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Roughness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{5650026407490086663,5768478847879086899}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{4}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"BLEND_MODE::BLEND_MODE_ADDITIVE"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{13599621718880503618,5863339324221129016}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{3831938696205031036,5872730267230349558}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{4301005310265186225,5903935152718859695}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{10296483233693556914,5928499293804127535}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x333333333333D33F}
+	}
+}
+o
+{
+	Uuid %id{u4{6199358669025902330,6001744407548156907}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{16194262838797315575,18217230314748297934}}
+			Uuid{u4{727512686339508890,17481557974655513350}}
+			Uuid{u4{6011469302695331738,14054049048018485657}}
+			Uuid{u4{12061380269279132674,10872164470917813088}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_blur_strength"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{10978509386339080603,6055180187630064684}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{11154057802738083180,8940345913792219569}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Metallic"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{11866717605188968954,6179620925697309832}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{1256443714458688118,6179775565858073991}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8900877836175287540,2624232588055183873}}
+			Uuid{u4{7419729425991662002,1022457494308290094}}
+			Uuid{u4{925061398601074184,14477850711525660955}}
+			Uuid{u4{6261405919321324473,12506946061999958479}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"emission_color"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{4800034404595069055,6213070756534180419}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{5345937048428178982,6217126397608932724}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000005940}
+		d %Min{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{6291481475922553325,6250723492247204918}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{6681920541234292456,1932320683773733903}}
+			Uuid{u4{14528417265693228307,7729100685840513655}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseCoatTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{168057228374501286,6251753556952912477}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Vec3 %Value{f{0,0,0}}
+	}
+}
+o
+{
+	Uuid %id{u4{15069833807053007917,6277819092939063235}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{5591156392048229682,6290540635527762310}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15602308578950799413,6573846152269406003}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::IsEnum|plPropertyFlags::Phantom"}
+		s %Name{"SSS_PROFILE"}
+		s %Type{"SSS_PROFILE"}
+	}
+}
+o
+{
+	Uuid %id{u4{12968096466253735650,6403999049692949730}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7402729207315874736,14232812656430129815}}
+			Uuid{u4{14535009862051211986,4504231688204859231}}
+			Uuid{u4{15580888935044085489,14203326815723965545}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_roughness_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{9936750020683917948,6411007776840024150}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{11739760686286964855,6456965936396913327}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{15023286507609177006,6483105760949325482}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F83F}
+	}
+}
+o
+{
+	Uuid %id{u4{6132256060346407795,6500214385326867546}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{11695727463527673381,6549777581474058039}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"ShaderTypes"}
+		VarArray %Properties
+		{
+			Uuid{u4{1155205217496153151,16062411953539633064}}
+			Uuid{u4{9182498974977327514,2041274447054354959}}
+			Uuid{u4{14201946371216656691,8983156218640221597}}
+		}
+		s %TypeName{"SHADING_MODE"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{1097763813106056402,6551283089846853294}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{15602308578950799413,6573846152269406003}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{12123694589359637393,6797358509465135799}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"plEditorPluginAssets"}
+		VarArray %Properties{}
+		s %TypeName{"plMaterialShaderMode"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{3513417945323578958,6803027998283255186}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12188452216097237062,5689217645126770575}}
+			Uuid{u4{11077156630202199649,8525938625230404941}}
+			Uuid{u4{17100529816775358331,10840622243332767214}}
+			Uuid{u4{14624574433148693292,11310403120353790315}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_roughness_anisotropy"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{4660135357680489827,6807875107706188459}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{13964683398563759650,6857264399207119867}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{14800380909255272620,6887164798133010744}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{11612528056406893726,6901741651696467143}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{2427851771628234394,9089352199196951957}}
+			Uuid{u4{2280780912650044856,7394581046432861610}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseCoatNormalTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{4611281916053289367,6947608729432991738}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{1560101511840995958,13140656636775445940}}
+			Uuid{u4{17327498722649206847,18097560574028978024}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"geometry_thin_walled"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{16179799206273244517,6983673338700878351}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Thin Film"}
+	}
+}
+o
+{
+	Uuid %id{u4{3316802802421865050,7007464818786615442}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0xCDCC4C3F,0xCDCC4C3F,0xCDCC4C3F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{9815113377689081139,7011785287392658854}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{6469977553965277698,7012823072727800115}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{17077584861787132509,7072738564925402089}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{12975893279928312590,7112828226212987324}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		f %Value{0x0000003F}
+	}
+}
+o
+{
+	Uuid %id{u4{16218050526835161093,7255247056424431896}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{10308207855231922838,7257045245187367463}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{16013323005198273815,13974851543944371817}}
+			Uuid{u4{14188506049058479765,16161751389394502932}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseEmissionTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{8652712219880796415,7284811850537421364}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		b %Value{1}
+	}
+}
+o
+{
+	Uuid %id{u4{3417825314001571042,7325589673580962186}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{4940795788757540168,7335798946823007125}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x0000000000003440}
+	}
+}
+o
+{
+	Uuid %id{u4{15229144435902667307,7391737579581180896}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{2280780912650044856,7394581046432861610}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{16067629854886882454,7584490798309153676}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{8546080099346981247,7614181197563749158}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000408F40}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{12292176100919018008,7684868597451342326}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{8638508672548578615,7713847602599523521}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{14528417265693228307,7729100685840513655}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{1263665986699366714,7795821215980672176}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		f %Value{0x0000803F}
+	}
+}
+o
+{
+	Uuid %id{u4{12001691755091817492,7903903351642109436}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{5260875572969040329,7971147119366325335}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Fuzz"}
+	}
+}
+o
+{
+	Uuid %id{u4{7757084663128585029,8011669779036733373}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{3}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"BLEND_MODE::BLEND_MODE_TRANSPARENT"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{4904605011776724339,8041232446065121816}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Fuzz"}
+	}
+}
+o
+{
+	Uuid %id{u4{205663555087660038,8069079350390696726}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{540429536914844576,8213819539779215949}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{0}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"BLEND_MODE::BLEND_MODE_OPAQUE"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{9080986819849766939,8253895278784715779}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{7456441671913419477,8261638528408429289}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15745533620583731474,17665153622385520235}}
+			Uuid{u4{11663607471246168418,2483349853474097318}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseOrmStochasticTexturing"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{8103396567826208359,8304262339839124096}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{4530844581228241647,8326330400008513066}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{9373088534026822795,8448878203048957821}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{13199851989629445100,8451999014722933714}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{16365469755848934630,8515151352233461906}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000000840}
+		d %Min{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{7459890765068886472,8519731815634100607}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		f %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{11077156630202199649,8525938625230404941}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{17110348402080767328,8538592808727653740}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{15962474750109329805,8575726503382703010}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{9695553319194182484,8663958754949943909}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{1462066923076003219,8676856684750163039}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{6624843063808319837,8713007899977723848}}
+	s %t{"plTitleAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Title{"{$Name}"}
+	}
+}
+o
+{
+	Uuid %id{u4{1985440285483112827,8724481050509570786}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Output"}
+	}
+}
+o
+{
+	Uuid %id{u4{10134979271761494886,8764671515805107265}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{17895023307521694848,8843958083409383816}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{15752888857517446227,8879402808092020332}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7962876638746699795,9619241305244999915}}
+			Uuid{u4{429031268498736427,16179761359581648060}}
+			Uuid{u4{3316802802421865050,7007464818786615442}}
+			Uuid{u4{17357249367116837093,5217670515496955813}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"base_color"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{11154057802738083180,8940345913792219569}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		f %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{4232925520755658093,8947680487565528009}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{3}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SSS_PROFILE::SSS_PROFILE_JADE"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{16894536764416049001,8948769484666065926}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{3362255376557868707,8969330785822161686}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{14201946371216656691,8983156218640221597}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{1}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SHADING_MODE::SHADING_MODE_FULLBRIGHT"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{16123147401024015116,8991320769471663805}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{7744276263774501485,9030341968675331239}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7388758938805448453,287310173887340083}}
+			Uuid{u4{1255704747254668947,10428633780277511413}}
+			Uuid{u4{7439936491185678423,18246832066173627060}}
+			Uuid{u4{8882614787628237986,15670433179110359510}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"displacement_scale"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{5464676634424085013,9031715359083098625}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{5162806095292268423,9038498581169213033}}
+	s %t{"plSuffixAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Suffix{" um"}
+	}
+}
+o
+{
+	Uuid %id{u4{2427851771628234394,9089352199196951957}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{2050384065868420191,9272789773066723828}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{4}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SSS_PROFILE::SSS_PROFILE_MILK"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{15436952070442387567,9284660284124262414}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0,0,0,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{4653124759386770968,9290090360068579215}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{11558353525189948303,9314830926342369406}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{15665716712979609978,9331404688262165969}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{4184577858778117115,11961649037434059985}}
+			Uuid{u4{3464204495064643629,2526682284417417147}}
+			Uuid{u4{15436952070442387567,9284660284124262414}}
+			Uuid{u4{10637281296545191171,14875129715003530351}}
+			Uuid{u4{16356752187024382630,10441048695605397755}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_scatter"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{6127124030566336271,9353662029450943943}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{9875382167628692353,9413124615854001732}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{2402382417020042925,9418495929206863892}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{5129398481617582958,9517002993555768605}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{9818774002078287235,9519895802009866063}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{17717125888103514937,10158950393274862169}}
+			Uuid{u4{17690263265254920048,17216314916110673905}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseBaseColorTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{13542406804441022416,9548951225033578222}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Vec4 %Value{f{0,0,0,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{11494436497085208558,9574765285259029415}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0x000000000000F0BF}
+	}
+}
+o
+{
+	Uuid %id{u4{7962876638746699795,9619241305244999915}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{7009381072334277535,9659459603664967231}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16367323177932272967,9676283094264705640}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{14280687352031764607,9704464638190604473}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Emission"}
+	}
+}
+o
+{
+	Uuid %id{u4{83467845955989859,9711630296947084557}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0xCDCC4C3F,0xCDCC4C3F,0xCDCC4C3F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{16153061768880820579,9716812698762541686}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{8531456234757106898,9843359760009772741}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{4085023801481947262,4424431816763648179}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"BaseColor"}
+		s %Type{"plVec3"}
+	}
+}
+o
+{
+	Uuid %id{u4{6664694958886966151,9882013700542471540}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{17077584861787132509,7072738564925402089}}
+			Uuid{u4{15023286507609177006,6483105760949325482}}
+			Uuid{u4{16365469755848934630,8515151352233461906}}
+			Uuid{u4{205663555087660038,8069079350390696726}}
+			Uuid{u4{9220896776869573646,1195942188676705234}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_ior"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{8648239361117756762,9885497416939688555}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{10984459052863356312,9989258056344546536}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{11558353525189948303,9314830926342369406}}
+			Uuid{u4{9373088534026822795,8448878203048957821}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseDisplacementStochasticTexturing"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{14959056557180687034,10150199534668105075}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{17717125888103514937,10158950393274862169}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{8536393422672583750,10193334558824049601}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000002440}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{12285259696203672457,10220524470936691669}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000E03F}
+	}
+}
+o
+{
+	Uuid %id{u4{10288737819677876977,10225830380984575593}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{8090618170192150079,10255163260507410708}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{15807402178324189574,10255301217497370093}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7572241762916391090,11522954874728774122}}
+			Uuid{u4{17895023307521694848,8843958083409383816}}
+			Uuid{u4{12292176100919018008,7684868597451342326}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_normal_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{1255704747254668947,10428633780277511413}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{16356752187024382630,10441048695605397755}}
+	s %t{"plSuffixAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Suffix{" (needs depth > 0)"}
+	}
+}
+o
+{
+	Uuid %id{u4{3327657541176748878,10441360774296964576}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{4301005310265186225,5903935152718859695}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_SUBSURFACE"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{13259549425803085586,10560471181391175870}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{4970566383191131298,10614349540447510987}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{5411080189055558626,10665619727504359315}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{16396998097025508955,10667792405495983987}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{5585223607512213068,10767822426980147037}}
+			Uuid{u4{8185174584544407361,13248504699872264740}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseSpecularRoughnessTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{2132325860111287274,10673813930545896895}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{15163808099322334660,10708413742761099773}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{4344819233162547995,10738562765453313395}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7459890765068886472,8519731815634100607}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Lod"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{15385429092844235046,10767134171222214655}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{5585223607512213068,10767822426980147037}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{15927723775381222245,10784598746734091425}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15837387383251555346,1127719453002499205}}
+			Uuid{u4{16123147401024015116,8991320769471663805}}
+			Uuid{u4{13000973119387889109,14364195734987946328}}
+			Uuid{u4{4733569595801075608,3131520060895050784}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_weight"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{17100529816775358331,10840622243332767214}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{12061380269279132674,10872164470917813088}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{7566946888615057369,10895726355449621559}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{6578081666434076975,4946780050709061779}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Name"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{16371564635496032411,10961631513758590402}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{16819636187740221814,11089501717885464587}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plEnumBase"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{17707789227418845855,11090259033557906564}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{12873642932628257060,11127470554962009432}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{9062096873703911762,11141528047753774640}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{3477791797975839919,11160161787359007603}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{13229502407202967970,16079282288589257335}}
+			Uuid{u4{4800034404595069055,6213070756534180419}}
+			Uuid{u4{9936750020683917948,6411007776840024150}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"base_metalness_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{15388913065968328453,11188089115316402371}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{6649753934969554305,13791166057793731169}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Opacity"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{14114752523095510056,11224326753378124470}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{14209585135339028478,11308263336862562356}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plPropertyAttribute"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{14624574433148693292,11310403120353790315}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{7919352178989855113,11348124647102862617}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{16151697286571392739,11355909316313112514}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{18408605866806390279,17775222194630683758}}
+			Uuid{u4{9798700193260614189,15305553674513054584}}
+			Uuid{u4{12309751363810078380,2785489960050188011}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"base_color_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{11220865890225656029,11360908979213972147}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{1144168016329057634,13850167575951489174}}
+			Uuid{u4{15536110552602072196,2037053645355207047}}
+			Uuid{u4{4740142852270737699,13807067940868303606}}
+			Uuid{u4{14959056557180687034,10150199534668105075}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_roughness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{9455818812179475759,11484579439794109657}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0x000000000000F0BF}
+	}
+}
+o
+{
+	Uuid %id{u4{5182949022402297138,11502908056830025687}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{168057228374501286,6251753556952912477}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"SubsurfaceColor"}
+		s %Type{"plVec3"}
+	}
+}
+o
+{
+	Uuid %id{u4{50824923012384968,11513845302080729655}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{7572241762916391090,11522954874728774122}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{571682376885720672,11532285440242528122}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12152233490115303611,18338488125258270759}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_THINFILM"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{17399055997121552148,11541276372309029042}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Subsurface"}
+	}
+}
+o
+{
+	Uuid %id{u4{12073207100441116220,11556643723538720049}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{16951140674556934322,11636795198696210625}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Packed Textures"}
+	}
+}
+o
+{
+	Uuid %id{u4{7962378850869020235,11741641711926181723}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plShaderTypeBase"}
+		s %PluginName{"ShaderTypes"}
+		VarArray %Properties
+		{
+			Uuid{u4{6953931926994019975,1211839655795563793}}
+			Uuid{u4{14999436271137960313,3531389805284838527}}
+			Uuid{u4{13694728791128681609,4779322342744069952}}
+			Uuid{u4{18231598819955981526,15987439595752703952}}
+			Uuid{u4{2005396990807502301,2945447351068243698}}
+			Uuid{u4{6116479978962706445,3222604807867055980}}
+			Uuid{u4{4673123990735156995,12566699837352854218}}
+			Uuid{u4{10038802993941746072,17063967181879441433}}
+			Uuid{u4{13192352710360986294,4516766926872340421}}
+			Uuid{u4{10097627552364555634,12845368303539683198}}
+			Uuid{u4{571682376885720672,11532285440242528122}}
+			Uuid{u4{3327657541176748878,10441360774296964576}}
+			Uuid{u4{5591156392048229682,6290540635527762310}}
+			Uuid{u4{8952703178546588783,16176889800405861375}}
+			Uuid{u4{5292513149015595853,2139402305047659174}}
+			Uuid{u4{15752888857517446227,8879402808092020332}}
+			Uuid{u4{9818774002078287235,9519895802009866063}}
+			Uuid{u4{5346831763074240846,11883523341728001228}}
+			Uuid{u4{16151697286571392739,11355909316313112514}}
+			Uuid{u4{8993289534312402025,16595830077236761323}}
+			Uuid{u4{13722448716618638919,18374771753505301581}}
+			Uuid{u4{3477791797975839919,11160161787359007603}}
+			Uuid{u4{10180563398703950970,14112912356808222043}}
+			Uuid{u4{7058171260018067088,884143171822304424}}
+			Uuid{u4{13195037598600280,14204808232953827820}}
+			Uuid{u4{7676326895476359904,12538014841210941654}}
+			Uuid{u4{714337621155548519,14326132151645854410}}
+			Uuid{u4{11814044388903646542,13117667833408272191}}
+			Uuid{u4{16396998097025508955,10667792405495983987}}
+			Uuid{u4{14306396433288471561,3967032276143130004}}
+			Uuid{u4{12968096466253735650,6403999049692949730}}
+			Uuid{u4{6664694958886966151,9882013700542471540}}
+			Uuid{u4{3243420965592973153,2870197231811620045}}
+			Uuid{u4{6918535257671105113,1976430501789288111}}
+			Uuid{u4{15757024522693013623,15397148510220530061}}
+			Uuid{u4{2738251179664320208,12862460591893085583}}
+			Uuid{u4{7456441671913419477,8261638528408429289}}
+			Uuid{u4{15567146928977235029,5718928627682425982}}
+			Uuid{u4{10578539084681953211,1724078899028520080}}
+			Uuid{u4{3856810348510823321,12329458689534311199}}
+			Uuid{u4{2760110337615023395,18338369737281677500}}
+			Uuid{u4{14132209547623825419,15987629170274069058}}
+			Uuid{u4{11325353457407115452,962373184355435413}}
+			Uuid{u4{11220865890225656029,11360908979213972147}}
+			Uuid{u4{3513417945323578958,6803027998283255186}}
+			Uuid{u4{11040086399727565857,12212856142780160067}}
+			Uuid{u4{15998379709561119718,4125875099470983195}}
+			Uuid{u4{3182558697733169037,14713294180481826292}}
+			Uuid{u4{6291481475922553325,6250723492247204918}}
+			Uuid{u4{3462789832886655263,14601465835150279660}}
+			Uuid{u4{11612528056406893726,6901741651696467143}}
+			Uuid{u4{15807402178324189574,10255301217497370093}}
+			Uuid{u4{12494713803913314697,944531233348362701}}
+			Uuid{u4{13958529985619956222,3500452058663490684}}
+			Uuid{u4{15746312881883185457,5410024535688263665}}
+			Uuid{u4{7125996298139174883,17751739019749078824}}
+			Uuid{u4{8409720129952436962,479970009941713068}}
+			Uuid{u4{16098032141102195210,2217429398823702165}}
+			Uuid{u4{5639663073489427154,3290330440354474383}}
+			Uuid{u4{15989494111161090414,4114764265842873271}}
+			Uuid{u4{320237698458714602,2357299022980878532}}
+			Uuid{u4{4563291088695031936,17861257732901206839}}
+			Uuid{u4{807859887506019664,3974883262983782522}}
+			Uuid{u4{16740668941513221175,1773633247575494011}}
+			Uuid{u4{15927723775381222245,10784598746734091425}}
+			Uuid{u4{18279771506927313794,2876045944149082031}}
+			Uuid{u4{5547529106464729107,534432293972397740}}
+			Uuid{u4{15665716712979609978,9331404688262165969}}
+			Uuid{u4{4327552827281632259,13110840852859970540}}
+			Uuid{u4{136243142080152940,2265169244484495986}}
+			Uuid{u4{16265177227382221093,14500535969826700670}}
+			Uuid{u4{13646279318684116143,16932859415961388007}}
+			Uuid{u4{6199358669025902330,6001744407548156907}}
+			Uuid{u4{16817846501597051724,1190960682435985691}}
+			Uuid{u4{5229307143784458874,17004701073892491615}}
+			Uuid{u4{1315152810255380661,478452221775304204}}
+			Uuid{u4{4611281916053289367,6947608729432991738}}
+			Uuid{u4{17858100279601468831,15245279265534333180}}
+			Uuid{u4{12763630868801674957,15978545831148375557}}
+			Uuid{u4{14772945616141129658,4707408477893437731}}
+			Uuid{u4{1256443714458688118,6179775565858073991}}
+			Uuid{u4{9170094267343567514,1502493601990969388}}
+			Uuid{u4{15575195466921231597,2896637546085666820}}
+			Uuid{u4{10308207855231922838,7257045245187367463}}
+			Uuid{u4{13929205057267625747,145928129724804724}}
+			Uuid{u4{453658281641726135,475643957905904681}}
+			Uuid{u4{7768309841231461694,1192646518160333740}}
+			Uuid{u4{9418481016427139427,195901740684285985}}
+			Uuid{u4{3440299155979990962,5360840066053655640}}
+			Uuid{u4{18202532783392598542,13103520285529338566}}
+			Uuid{u4{5842503704189964756,3730367066671253356}}
+			Uuid{u4{17755599208350841958,14826812698545733356}}
+			Uuid{u4{2736240293049200561,3767605606824940627}}
+			Uuid{u4{10984459052863356312,9989258056344546536}}
+			Uuid{u4{17685405387310519897,1985338513571785083}}
+			Uuid{u4{7744276263774501485,9030341968675331239}}
+			Uuid{u4{15906554760109069275,15834929402282065637}}
+		}
+		s %TypeName{"Shaders/Materials/OpenPBRSurface.plShader"}
+		u3 %TypeVersion{2}
+	}
+}
+o
+{
+	Uuid %id{u4{3968493059274245116,11777129680303077441}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{9820184588771068883,11782920371706536792}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{1634537248169012870,11814985502537039385}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{5346831763074240846,11883523341728001228}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8025978261411774976,17866289006422970320}}
+			Uuid{u4{11780648007925904780,16201573462019642225}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseBaseColorStochasticTexturing"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{4184577858778117115,11961649037434059985}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{2840318671577946940,12071702709536340822}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Subsurface"}
+	}
+}
+o
+{
+	Uuid %id{u4{9042454956679658572,12163012192057132159}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000E03F}
+	}
+}
+o
+{
+	Uuid %id{u4{11040086399727565857,12212856142780160067}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{2599145703221511059,14508149893146191402}}
+			Uuid{u4{2489555108993037003,16862053486194181098}}
+			Uuid{u4{9815113377689081139,7011785287392658854}}
+			Uuid{u4{4756129218384782354,15322540109107738227}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_anisotropy_rotation"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{15099998058862940370,12265018821712969097}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{15090254598469323523,12277474756421628091}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{3856810348510823321,12329458689534311199}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{18337955314988830198,2167878793615216078}}
+			Uuid{u4{9834257740614029970,4850004564307376971}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"InvertOcclusion"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{7406435361421280592,12416299171376389275}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{8902869426992550651,12425837939523063877}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{6261405919321324473,12506946061999958479}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Emission"}
+	}
+}
+o
+{
+	Uuid %id{u4{15577036581942231865,12529160618446483604}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Thin Film"}
+	}
+}
+o
+{
+	Uuid %id{u4{7676326895476359904,12538014841210941654}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12001691755091817492,7903903351642109436}}
+			Uuid{u4{1462066923076003219,8676856684750163039}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseSpecularColorTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{1702777610577799269,12538931205233967903}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{4673123990735156995,12566699837352854218}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15760889354826019982,15475857160244453020}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_ANISOTROPY"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{2376550504530686320,12639075221071613020}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{5956583766937197869,12639561568732742368}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{2228436983102273050,12679280848340687150}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{3822222333402392574,12738805999093949021}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{16793040914115743400,12765101392546222867}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{2011114542275166183,12822976412876536675}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{10097627552364555634,12845368303539683198}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{16067629854886882454,7584490798309153676}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_TRANSMISSION_DISPERSION"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{2738251179664320208,12862460591893085583}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{1097763813106056402,6551283089846853294}}
+			Uuid{u4{11741253839755965871,1722247385497857597}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseRmaTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{11960061889638178267,12914808095323952851}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{6409931856791831388,12928740802583886166}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{1546152290808802983,12968437014585530883}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{11956913679456380476,12977050983397571975}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{17248013709911545167,12991302838766535943}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{13141662763790481133,13014553141299056926}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Value{"{ ac614d7c-2b31-4a7b-aa0c-c5d8200b7b89 }"}
+	}
+}
+o
+{
+	Uuid %id{u4{11382387788585555247,13055572849966061462}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{18202532783392598542,13103520285529338566}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{14696515340588679160,15476644076683163413}}
+			Uuid{u4{18287205826233669395,14162671235825764235}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseNormalStochasticTexturing"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{4327552827281632259,13110840852859970540}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8648239361117756762,9885497416939688555}}
+			Uuid{u4{12263344876613037926,1637716179223588024}}
+			Uuid{u4{11494436497085208558,9574765285259029415}}
+			Uuid{u4{16153061768880820579,9716812698762541686}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_scatter_anisotropy"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{11814044388903646542,13117667833408272191}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8594597557306080771,2354711443301172843}}
+			Uuid{u4{10296483233693556914,5928499293804127535}}
+			Uuid{u4{1307771917934940267,17435406016957438060}}
+			Uuid{u4{11866717605188968954,6179620925697309832}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_roughness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{1560101511840995958,13140656636775445940}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{12799123634102489619,13164917737659870015}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{8185174584544407361,13248504699872264740}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{8021185824820046032,13291966579949917575}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{18411837506060015951,13397631608945770603}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{2531204913114908651,14636118749865147444}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"ApplyDecals"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{1775350024911681028,13453617770426043078}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Packed Textures"}
+	}
+}
+o
+{
+	Uuid %id{u4{12860981436201320437,13588079807163829559}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{3470131225453555590,13606340261295068762}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{5316640020076774795,13624620080584670812}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{4078226210113058245,13662764586963335301}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{12141545970522312326,13750833190039664112}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::IsEnum|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plEnumBase"}
+		s %PluginName{"ShaderTypes"}
+		VarArray %Properties
+		{
+			Uuid{u4{7044187313921865914,16443859648909124982}}
+			Uuid{u4{12896758529355736724,15226226697445833632}}
+			Uuid{u4{14853369653563399310,14110251728103468}}
+			Uuid{u4{3697977856121260238,13882961004695770229}}
+			Uuid{u4{4232925520755658093,8947680487565528009}}
+			Uuid{u4{2050384065868420191,9272789773066723828}}
+			Uuid{u4{11543369858619074197,3437461721487944441}}
+		}
+		s %TypeName{"SSS_PROFILE"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{6649753934969554305,13791166057793731169}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		f %Value{0x0000803F}
+	}
+}
+o
+{
+	Uuid %id{u4{4740142852270737699,13807067940868303606}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{1144168016329057634,13850167575951489174}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{10722660494486704228,13869170878537216617}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{3697977856121260238,13882961004695770229}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{2}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SSS_PROFILE::SSS_PROFILE_WAX"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{16013323005198273815,13974851543944371817}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{6011469302695331738,14054049048018485657}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{9673202392289900538,14083275247972869917}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{10180563398703950970,14112912356808222043}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{14211756319780114123,16904533173706691698}}
+			Uuid{u4{3470131225453555590,13606340261295068762}}
+			Uuid{u4{11739760686286964855,6456965936396913327}}
+			Uuid{u4{6674124804449287962,16106731916697475980}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"base_diffuse_roughness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{18287205826233669395,14162671235825764235}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{15580888935044085489,14203326815723965545}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{13195037598600280,14204808232953827820}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{17346483207555608218,1672003086270270717}}
+			Uuid{u4{17248013709911545167,12991302838766535943}}
+			Uuid{u4{2333756880885946919,2237455060922773235}}
+			Uuid{u4{2132325860111287274,10673813930545896895}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_color"}
+		s %Type{"plColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{7402729207315874736,14232812656430129815}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{714337621155548519,14326132151645854410}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{4660135357680489827,6807875107706188459}}
+			Uuid{u4{1259356006155006359,15970695021364378449}}
+			Uuid{u4{15366029117168297821,17107094015466136060}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"specular_color_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{13000973119387889109,14364195734987946328}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{8478457513034897251,14429883433824837419}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{10831861412440121674,14465111803885778603}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0x0000803F,0x0000003F,0x0000803E,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{925061398601074184,14477850711525660955}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Color %Value{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{14827684183374794394,14495887698593921408}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{16265177227382221093,14500535969826700670}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15878468071425318999,18119964693813298296}}
+			Uuid{u4{4940795788757540168,7335798946823007125}}
+			Uuid{u4{5345937048428178982,6217126397608932724}}
+			Uuid{u4{3822222333402392574,12738805999093949021}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_dispersion_abbe_number"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{2599145703221511059,14508149893146191402}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{5068517006152418954,14563138719279420219}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{3462789832886655263,14601465835150279660}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{17707789227418845855,11090259033557906564}}
+			Uuid{u4{13137006516796710697,3807890299325430607}}
+			Uuid{u4{4851570142986457834,18314326137617960768}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{2531204913114908651,14636118749865147444}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		b %Value{1}
+	}
+}
+o
+{
+	Uuid %id{u4{18402962030027674384,14651884444455126911}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{3182558697733169037,14713294180481826292}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{1278176243805965817,17693308387434710986}}
+			Uuid{u4{6530726054376262079,2143529111360127393}}
+			Uuid{u4{14803340968955491996,15327257687615656728}}
+			Uuid{u4{4530844581228241647,8326330400008513066}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_darkening"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{12621197755680319962,14721909023057334500}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{9321134734067381573,14760975342255350389}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{6374112424352883973,14805138945750538797}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{17755599208350841958,14826812698545733356}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15229144435902667307,7391737579581180896}}
+			Uuid{u4{3494279789420274722,16909215566838656324}}
+			Uuid{u4{2245585983363498933,5461389159812932534}}
+			Uuid{u4{1590559062246706910,2846674307898123174}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"geometry_normal_intensity"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{10637281296545191171,14875129715003530351}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{12323734747224659121,14932440226755748124}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Subsurface"}
+	}
+}
+o
+{
+	Uuid %id{u4{10762549109960138628,14969094616816982600}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Fuzz"}
+	}
+}
+o
+{
+	Uuid %id{u4{7584185151159306336,15090367746943933089}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{11450691934225383466,15095994446798218963}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{11838234552971199096,15104807336295836355}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Emission"}
+	}
+}
+o
+{
+	Uuid %id{u4{107023027798387058,15125524156854853544}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		f %Value{0x0000803E}
+	}
+}
+o
+{
+	Uuid %id{u4{12896758529355736724,15226226697445833632}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{0}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SSS_PROFILE::SSS_PROFILE_NONE"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{17858100279601468831,15245279265534333180}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7105032300890962103,4540438085969744155}}
+			Uuid{u4{6469977553965277698,7012823072727800115}}
+			Uuid{u4{15090254598469323523,12277474756421628091}}
+			Uuid{u4{15577036581942231865,12529160618446483604}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"thin_film_weight"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{9798700193260614189,15305553674513054584}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{4756129218384782354,15322540109107738227}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{14803340968955491996,15327257687615656728}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{2476700059554447605,15334435499439497874}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plReflectedClass"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plDocumentObject_ConnectionBase"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{15757024522693013623,15397148510220530061}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{16371564635496032411,10961631513758590402}}
+			Uuid{u4{9701069437166796754,18091746335541351452}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseOrmTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{15760889354826019982,15475857160244453020}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{14696515340588679160,15476644076683163413}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{3661606116271410882,15635946552928660533}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x666666666666F63F}
+	}
+}
+o
+{
+	Uuid %id{u4{8882614787628237986,15670433179110359510}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{5950457739069143606,15719770359609842253}}
+	s %t{"plSuffixAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Suffix{" px"}
+	}
+}
+o
+{
+	Uuid %id{u4{12465950896141984421,15760915466871037192}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{9221120113878584386,17968224631210073482}}
+			Uuid{u4{6624843063808319837,8713007899977723848}}
+		}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Phantom"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plVisualShaderNodeBase"}
+		s %PluginName{"VisualShaderTypes"}
+		VarArray %Properties
+		{
+			Uuid{u4{7566946888615057369,10895726355449621559}}
+			Uuid{u4{4344819233162547995,10738562765453313395}}
+		}
+		s %TypeName{"ShaderNode::Texture2D"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{15906554760109069275,15834929402282065637}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{11838674874273925346,16679531392007223833}}
+			Uuid{u4{9852536425717529366,1576560371593436943}}
+			Uuid{u4{13141662763790481133,13014553141299056926}}
+			Uuid{u4{18402962030027674384,14651884444455126911}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"DitherNoiseTexture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{11746977103117726514,15899302158337064627}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{8648126710299805379,15926322808980556731}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Vec3 %Value{f{0,0,0}}
+	}
+}
+o
+{
+	Uuid %id{u4{773668148553828920,15966949596821666881}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		u3 %ConstantValue{0}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"BLEND_MODE::Default"}
+		s %Type{"plUInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{1259356006155006359,15970695021364378449}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{12763630868801674957,15978545831148375557}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{745152943614235961,16005260901758807897}}
+			Uuid{u4{9042454956679658572,12163012192057132159}}
+			Uuid{u4{1656517403607557184,16539349376845421179}}
+			Uuid{u4{16179799206273244517,6983673338700878351}}
+			Uuid{u4{5162806095292268423,9038498581169213033}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"thin_film_thickness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{18231598819955981526,15987439595752703952}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{9631801373312813819,848618392166579250}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_COAT"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{14132209547623825419,15987629170274069058}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8103396567826208359,8304262339839124096}}
+			Uuid{u4{10288737819677876977,10225830380984575593}}
+			Uuid{u4{12356339685641734466,17386883043864707606}}
+			Uuid{u4{6127124030566336271,9353662029450943943}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"coat_weight"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{745152943614235961,16005260901758807897}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{1155205217496153151,16062411953539633064}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		u3 %ConstantValue{0}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SHADING_MODE::Default"}
+		s %Type{"plUInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{13229502407202967970,16079282288589257335}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{6674124804449287962,16106731916697475980}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{14188506049058479765,16161751389394502932}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Emission"}
+	}
+}
+o
+{
+	Uuid %id{u4{8952703178546588783,16176889800405861375}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{15540924672187883510,1162972577362241439}}
+			Uuid{u4{12175357758555200269,16835095236266346535}}
+			Uuid{u4{7406435361421280592,12416299171376389275}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"Scale"}
+		s %Type{"plVec2"}
+	}
+}
+o
+{
+	Uuid %id{u4{429031268498736427,16179761359581648060}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{11780648007925904780,16201573462019642225}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{8826762044322424751,16228225863694839042}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{4400682450977548329,16263080228809244194}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Subsurface"}
+	}
+}
+o
+{
+	Uuid %id{u4{16804715233058764794,16291563085247070494}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{10546328178433928928,3538178021212683011}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"ApplyFog"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{12496807453269888305,16412205064812982056}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		f %Value{0x0000803F}
+	}
+}
+o
+{
+	Uuid %id{u4{7044187313921865914,16443859648909124982}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		u3 %ConstantValue{0}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"SSS_PROFILE::Default"}
+		s %Type{"plUInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{6853598190348858983,16453551367257532047}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"plPropertyAttribute"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plCategoryAttribute"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{1656517403607557184,16539349376845421179}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000000840}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{8993289534312402025,16595830077236761323}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{2011114542275166183,12822976412876536675}}
+			Uuid{u4{8638508672548578615,7713847602599523521}}
+			Uuid{u4{7919352178989855113,11348124647102862617}}
+			Uuid{u4{3968493059274245116,11777129680303077441}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"base_metalness"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{16561856738109980516,16596897780539100679}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{17009469423089393779,16603389234132584612}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{3687164412847300807,16605290275319987562}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes{}
+		s %Category{"plPropertyCategory::Constant"}
+		i3 %ConstantValue{5}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::ReadOnly"}
+		s %Name{"BLEND_MODE::BLEND_MODE_MODULATE"}
+		s %Type{"plInt32"}
+	}
+}
+o
+{
+	Uuid %id{u4{3023092958272427669,16665328142068309539}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{11838674874273925346,16679531392007223833}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{12175357758555200269,16835095236266346535}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		Vec2 %Value{f{0x0000803F,0x0000803F}}
+	}
+}
+o
+{
+	Uuid %id{u4{4093344776740764189,16843330500324361608}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Packed Textures"}
+	}
+}
+o
+{
+	Uuid %id{u4{2489555108993037003,16862053486194181098}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0}
+	}
+}
+o
+{
+	Uuid %id{u4{10509069197031840664,16875494424442779160}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{14211756319780114123,16904533173706691698}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{3494279789420274722,16909215566838656324}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{13646279318684116143,16932859415961388007}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8074804064158875227,16968813029164902606}}
+			Uuid{u4{909141803338893063,3053909488263610303}}
+			Uuid{u4{4992264050151566709,2874373814859900318}}
+			Uuid{u4{13599621718880503618,5863339324221129016}}
+			Uuid{u4{5950457739069143606,15719770359609842253}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"transmission_blur_radius"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{8074804064158875227,16968813029164902606}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{5229307143784458874,17004701073892491615}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12860981436201320437,13588079807163829559}}
+			Uuid{u4{13765735637870823704,1417785572581636836}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseThicknessTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{9952282383338487199,17012269330900302265}}
+	s %t{"plExposeColorAlphaAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
+	Uuid %id{u4{10038802993941746072,17063967181879441433}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{5426232521812624447,980899917142218683}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"OPENPBR_TRANSMISSION"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{15366029117168297821,17107094015466136060}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Specular"}
+	}
+}
+o
+{
+	Uuid %id{u4{17690263265254920048,17216314916110673905}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Base"}
+	}
+}
+o
+{
+	Uuid %id{u4{13033624727069548121,17368468367984449402}}
+	s %t{"plReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"plTypeFlags::Class|plTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"plReflectedClass"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{11358257955706097330,17384077148257997155}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{12356339685641734466,17386883043864707606}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{8577904521872121354,17387734008428528798}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Geometry"}
+	}
+}
+o
+{
+	Uuid %id{u4{1307771917934940267,17435406016957438060}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x000000000000F03F}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{6904985725841256329,17475328943279946240}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{727512686339508890,17481557974655513350}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{5843524917083559980,17483340805588215634}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{8900163346424576765,17595263105991450080}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{15745533620583731474,17665153622385520235}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{1278176243805965817,17693308387434710986}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{18000852419596188232,17737726905353490786}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{10078869839480044637,17746002121000015212}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Subsurface"}
+	}
+}
+o
+{
+	Uuid %id{u4{14515818779165376041,17748225367811232666}}
+	s %t{"plAssetBrowserAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %DependencyFlags{"plDependencyFlags::Package|plDependencyFlags::Thumbnail"}
+		s %Filter{";CompatibleAsset_Texture_2D;"}
+		s %RequiredTag{""}
+	}
+}
+o
+{
+	Uuid %id{u4{7125996298139174883,17751739019749078824}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{8090618170192150079,10255163260507410708}}
+			Uuid{u4{10762549109960138628,14969094616816982600}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseFuzzTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{18408605866806390279,17775222194630683758}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texture 2D"}
+	}
+}
+o
+{
+	Uuid %id{u4{9454233887708662970,17790807955146963959}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000F03F}
+	}
+}
+o
+{
+	Uuid %id{u4{12816885831656311708,17830787928966663762}}
+	s %t{"plDefaultValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Value{0x000000000000D03F}
+	}
+}
+o
+{
+	Uuid %id{u4{4563291088695031936,17861257732901206839}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7209097387887171936,4425579613251137432}}
+			Uuid{u4{16367323177932272967,9676283094264705640}}
+			Uuid{u4{9455818812179475759,11484579439794109657}}
+			Uuid{u4{20152662666495112,5203568054144201669}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"subsurface_scatter_anisotropy"}
+		s %Type{"float"}
+	}
+}
+o
+{
+	Uuid %id{u4{8025978261411774976,17866289006422970320}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{9221120113878584386,17968224631210073482}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Texturing"}
+	}
+}
+o
+{
+	Uuid %id{u4{9701069437166796754,18091746335541351452}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Packed Textures"}
+	}
+}
+o
+{
+	Uuid %id{u4{17327498722649206847,18097560574028978024}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Transmission"}
+	}
+}
+o
+{
+	Uuid %id{u4{15878468071425318999,18119964693813298296}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{16194262838797315575,18217230314748297934}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Constant"}
+	}
+}
+o
+{
+	Uuid %id{u4{7439936491185678423,18246832066173627060}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000002440}
+		d %Min{0}
+	}
+}
+o
+{
+	Uuid %id{u4{4851570142986457834,18314326137617960768}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Coat"}
+	}
+}
+o
+{
+	Uuid %id{u4{2760110337615023395,18338369737281677500}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{12873642932628257060,11127470554962009432}}
+			Uuid{u4{16894536764416049001,8948769484666065926}}
+			Uuid{u4{16951140674556934322,11636795198696210625}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"occlusion_texture"}
+		s %Type{"plString"}
+	}
+}
+o
+{
+	Uuid %id{u4{12152233490115303611,18338488125258270759}}
+	s %t{"plCategoryAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Category{"Permutation"}
+	}
+}
+o
+{
+	Uuid %id{u4{13722448716618638919,18374771753505301581}}
+	s %t{"plReflectedPropertyDescriptor"}
+	u3 %v{2}
+	p
+	{
+		VarArray %Attributes
+		{
+			Uuid{u4{7062384220590206908,2492024633122976185}}
+			Uuid{u4{5452899030851875800,1975006258079450274}}
+		}
+		s %Category{"plPropertyCategory::Member"}
+		Invalid %ConstantValue{}
+		s %Flags{"plPropertyFlags::StandardType|plPropertyFlags::Phantom"}
+		s %Name{"UseMetalnessTexture"}
+		s %Type{"bool"}
+	}
+}
+o
+{
+	Uuid %id{u4{14419866512304811035,18388840746759171197}}
+	s %t{"plGroupAttribute"}
+	u3 %v{1}
+	p
+	{
+		s %Group{"Emission"}
+	}
+}
+o
+{
+	Uuid %id{u4{13349837859728148151,18443127821951126359}}
+	s %t{"plClampValueAttribute"}
+	u3 %v{1}
+	p
+	{
+		d %Max{0x0000000000000840}
+		d %Min{0x000000000000F03F}
+	}
+}
+}
