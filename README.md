@@ -7,11 +7,11 @@ required.
 
 ## Open in the editor
 
-Requires Windows and Plasma Engine 0.9.2.
+Requires Windows and Plasma Engine 0.11.1.
 
 Get the project from the Plasma Launcher's **Samples** page (BrickBreaker, Visual Script), or clone this repository and
 use **Add Existing Project**. The first time the editor opens it, it offers to install the packages listed in
-`Editor/Packages.ddl` (VisualScript 1.2.7, GameUI 1.2.1, Particles 1.3.7 and MiniAudio 1.1.8). Accept, and they are
+`Editor/Packages.ddl` (VisualScript 1.3.1, GameUI 1.4.0 and Particles 1.8.1). Accept, and they are
 installed into the project's `Plugins` folder. Then open `Scenes/Main.plScene` and play.
 
 A/D or arrows move, Space or left click launches, P pauses, R restarts. Escape closes the standalone Player (that is the

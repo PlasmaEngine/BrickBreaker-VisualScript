@@ -5,11 +5,6 @@ Plugin
 }
 Plugin
 {
-	string %Path{"plMiniAudioPlugin"}
-	bool %LoadCopy{false}
-}
-Plugin
-{
 	string %Path{"plParticlePlugin"}
 	bool %LoadCopy{false}
 }
