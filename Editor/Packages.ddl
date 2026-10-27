@@ -10,15 +10,15 @@
 Package
 {
 	string %Id{"plasma.visualscript"}
-	string %Version{"1.3.1"}
+	string %Version{"1.3.2"}
 }
 Package
 {
 	string %Id{"plasma.gameui"}
-	string %Version{"1.4.0"}
+	string %Version{"1.4.1"}
 }
 Package
 {
 	string %Id{"plasma.particles"}
-	string %Version{"1.8.1"}
+	string %Version{"1.9.1"}
 }
