@@ -17,6 +17,11 @@ installed into the project's `Plugins` folder. Then open `Scenes/Main.plScene` a
 A/D or arrows move, Space or left click launches, P pauses, R restarts. Escape closes the standalone Player (that is the
 engine's close key), so it is not a pause key here.
 
+On a touch screen (Android), hold the left or right third of the screen to move, tap the middle third to launch, tap the
+top fifth to restart, put down a second finger to pause and a third finger to restart. The areas are touch filters in
+`RuntimeConfigs/InputConfig.ddl`; edit them in **Project > Project Settings > Legacy Input Configuration** with the
+chevron of an action.
+
 ## Build and play without the editor
 
 ```powershell
