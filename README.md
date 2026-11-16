@@ -7,7 +7,7 @@ required.
 
 ## Open in the editor
 
-Requires Windows and Plasma Engine 0.12.0.
+Requires Windows and Plasma Engine 0.12.1.
 
 Get the project from the Plasma Launcher's **Samples** page (BrickBreaker, Visual Script), or clone this repository and
 use **Add Existing Project**. The first time the editor opens it, it offers to install the packages listed in
